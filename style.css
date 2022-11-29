@@ -1,0 +1,23 @@
+:root {
+	--defaultBtnColor: red;
+	--hoverBtnColor: pink;
+	--disabledBtnColor: blue;
+	--sizeBtn: 18px;
+	--hoverTextColor: #000;
+	--defaultTextColor: #fff;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	background-color: var(--defaultBtnColor);
+	border: none;
+	color: var(--defaultTextColor);
+	border-radius: 20px;
+	font-size: var(--sizeBtn);
+}
+
+button:hover {
+	background-color: var(--hoverBtnColor);
+	color : var(--hoverTextColor)
+}
